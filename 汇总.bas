@@ -1,52 +1,47 @@
-Attribute VB_Name = "Ä£¿é2"
-Sub ¸´ÖÆ()
-Attribute ¸´ÖÆ.VB_ProcData.VB_Invoke_Func = "w\n14"
+Attribute VB_Name = "æ¨¡å—2"
+Sub å¤åˆ¶()
+Attribute å¤åˆ¶.VB_ProcData.VB_Invoke_Func = "w\n14"
 '
     Dim i As Integer
         
     For i = 1 To 5
    
      
-    Sheets(i & "ÔÂ").Select
+    Sheets(i & "æœˆ").Select
     Range("A5:C22").Select
     Selection.Copy
     Sheets("Sheet2").Select
     Range("A" & (i - 1) * 90 + 1).Select
     ActiveSheet.Paste
     
-    Sheets(i & "ÔÂ").Select
+    Sheets(i & "æœˆ").Select
     Range("F5:H22").Select
     Selection.Copy
     Sheets("Sheet2").Select
     Range("A" & (i - 1) * 90 + 19).Select
     ActiveSheet.Paste
     
-    Sheets(i & "ÔÂ").Select
+    Sheets(i & "æœˆ").Select
     Range("A31:C48").Select
     Selection.Copy
     Sheets("Sheet2").Select
     Range("A" & (i - 1) * 90 + 37).Select
     ActiveSheet.Paste
 
-    Sheets(i & "ÔÂ").Select
+    Sheets(i & "æœˆ").Select
     Range("F31:H48").Select
     Selection.Copy
     Sheets("Sheet2").Select
     Range("A" & (i - 1) * 90 + 55).Select
     ActiveSheet.Paste
   
-    Sheets(i & "ÔÂ").Select
+    Sheets(i & "æœˆ").Select
     Range("A57:c74").Select
     Selection.Copy
     Sheets("Sheet2").Select
     Range("A" & (i - 1) * 90 + 73).Select
     ActiveSheet.Paste
     
-    'Range("A" & (i - 1) * 90 + 1).Select
-    
-  'Cells(i, 5).Select
-  'Selection.Formula = i & "ÔÂ"
-  
     Next i
    
     
