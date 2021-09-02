@@ -47,5 +47,7 @@ Attribute 复制.VB_ProcData.VB_Invoke_Func = "w\n14"
    Range(Range("A" & i), Range("A10")).Select
    Selection.Formula = "1月"
     
+    Application.SendKeys ("^{DOWN}")
+    Application.SendKeys ("{DOWN}")                                                                 
     
 End Sub
